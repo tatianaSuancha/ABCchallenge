@@ -7,6 +7,7 @@ Proyecto web interactivo desarrollado en equipo para practicar HTML, CSS, JavaSc
 ## 📋 Tabla de contenidos
 
 - Descripción
+- Enlaces del proyecto
 - Características
 - Tecnologías utilizadas
 - Instalación
@@ -25,6 +26,13 @@ Cada tarjeta muestra inicialmente una letra y, al hacer clic sobre ella, gira pa
 El proyecto también incluye filtros para mostrar determinadas tarjetas y un contador de progreso que registra las letras descubiertas por el usuario.
 
 Este proyecto fue desarrollado como actividad grupal para fortalecer el uso de HTML, CSS, JavaScript, GitHub y Trello.
+
+---
+
+## 🔗 Enlaces del proyecto
+
+- [Tablero de Trello](https://trello.com/b/PyTPzpnD/abc-challenge)
+- [Repositorio en GitHub](https://github.com/tatianaSuancha/ABCchallenge)
 
 ---
 
