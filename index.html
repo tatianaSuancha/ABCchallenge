@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Abecedario Interactivo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            Abecedario Interactivo
+        </div>
+
+        <div class="progress">
+            Letras descubiertas:
+            <span id="contador">0</span>/26
+        </div>
+    </nav>
+
+    <div class="filters">
+        <button
+            class="active"
+            onclick="filtrar('todas', this)">
+            Todas
+        </button>
+
+        <button onclick="filtrar('vocales', this)">
+            Vocales
+        </button>
+    </div>
+
+    <main class="cards">
+
+        <!-- Letras A - F: Tatiana -->
+
+
+        <!-- Letras G - K: Sneyder -->
+
+
+        <!-- Letras L - P: Lizeth -->
+
+
+        <!-- Letras Q - U: Bryan -->
+
+
+        <!-- Letras V - Z: Jorge -->
+
+        <div
+            class="card"
+            data-tipo="consonante"
+            onclick="voltear(this)">
+
+            <div class="card-inner">
+
+                <div class="card-frente">
+                    <h1>V</h1>
+                </div>
+
+                <div class="card-dorso">
+                    <img
+                        src="https://static.vecteezy.com/system/resources/previews/006/655/953/non_2x/cartoon-illustration-cool-cow-vector.jpg"
+                        alt="Vaca">
+
+                    <h3>Vaca</h3>
+                </div>
+
+            </div>
+        </div>
+
+        <div
+            class="card"
+            data-tipo="consonante"
+            onclick="voltear(this)">
+
+            <div class="card-inner">
+
+                <div class="card-frente">
+                    <h1>W</h1>
+                </div>
+
+                <div class="card-dorso">
+                    <img
+                        src="https://img.magnific.com/vector-premium/dibujo-waffles-jarabe-jarabe-el_410516-86470.jpg?semt=ais_hybrid&w=740&q=80"
+                        alt="Waffle">
+
+                    <h3>Waffle</h3>
+                </div>
+
+            </div>
+        </div>
+
+        <div
+            class="card"
+            data-tipo="consonante"
+            onclick="voltear(this)">
+
+            <div class="card-inner">
+
+                <div class="card-frente">
+                    <h1>X</h1>
+                </div>
+
+                <div class="card-dorso">
+                    <img
+                        src="https://img.magnific.com/vector-premium/xilofono-colorido-palos_175250-257.jpg?semt=ais_hybrid&w=740&q=80"
+                        alt="Xilófono">
+
+                    <h3>Xilófono</h3>
+                </div>
+
+            </div>
+        </div>
+
+        <div
+            class="card"
+            data-tipo="consonante"
+            onclick="voltear(this)">
+
+            <div class="card-inner">
+
+                <div class="card-frente">
+                    <h1>Y</h1>
+                </div>
+
+                <div class="card-dorso">
+                    <img
+                        src="https://img.magnific.com/vector-gratis/colorido-yoyo-ilustracion-diseno-estrellas_1308-180811.jpg?semt=ais_hybrid&w=740&q=80"
+                        alt="Yoyó">
+
+                    <h3>Yoyó</h3>
+                </div>
+
+            </div>
+        </div>
+
+        <div
+            class="card"
+            data-tipo="consonante"
+            onclick="voltear(this)">
+
+            <div class="card-inner">
+
+                <div class="card-frente">
+                    <h1>Z</h1>
+                </div>
+
+                <div class="card-dorso">
+                    <img
+                        src="https://img.magnific.com/vector-gratis/dibujado-mano-ilustracion-dibujos-animados-zapatos-correr_23-2150985777.jpg"
+                        alt="Zapato">
+
+                    <h3>Zapato</h3>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Fin letras V - Z -->
+
+    </main>
+
+    <footer class="footerEquipo">
+
+        <h3>Equipo 6</h3>
+
+        <div class="equipo">
+            <span class="miembro">
+                Lina Lizeth Londoño Marín
+            </span>
+
+            <span class="miembro">
+                Tatiana Luna Pérez Suancha
+            </span>
+
+            <span class="miembro">
+                Jimmyan Sneyder Rodríguez Delgadillo
+            </span>
+
+            <span class="miembro">
+                Bryan Camilo Díaz Sánchez
+            </span>
+
+            <span class="miembro">
+                Jorge Gutiérrez Vallejo
+            </span>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
