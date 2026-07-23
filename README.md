@@ -1,5 +1,4 @@
 ## Equipo de desarrollo
-[](https://github.com/jorgegutierrezvallejo/ProyectoFinalJava13-Grupo6#equipo-de-desarrollo)
 
 - Lina Lizeth Londoño Marín
 - Tatiana Luna Pérez Suancha
